@@ -1,4 +1,4 @@
-module github.com/yoloyi/redis-example
+module go-exercise-example/redis-pubsub
 
 go 1.12
 
