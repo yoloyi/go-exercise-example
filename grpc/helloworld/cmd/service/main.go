@@ -6,7 +6,7 @@ import (
 	"google.golang.org/grpc"
 	"log"
 	"net"
-	pb "go-exercise-example/proto-example/helloworld/proto"
+	pb "go-exercise-example/grpc/helloworld/proto"
 )
 
 const port = ":50051"

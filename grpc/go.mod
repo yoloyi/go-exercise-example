@@ -1,4 +1,4 @@
-module go-exercise-example/proto-example
+module go-exercise-example/grpc
 
 go 1.12
 

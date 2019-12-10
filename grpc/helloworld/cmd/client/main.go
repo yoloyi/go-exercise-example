@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	pb "go-exercise-example/proto-example/helloworld/proto"
+	pb "go-exercise-example/grpc/helloworld/proto"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"log"

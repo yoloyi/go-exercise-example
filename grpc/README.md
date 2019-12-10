@@ -5,7 +5,7 @@
 ### helloworld
 1、`$ git clone git@github.com:yoloyi/go-exercise-example.git`
 
-2、`$ cd /go-exercise-example/proto-example`
+2、`$ cd /go-exercise-example/grpc`
 
 3、`$ go install`
 4、`$ go run helloworld/cmd/service/main.go`
@@ -192,7 +192,7 @@ import (
 	"google.golang.org/grpc"
 	"log"
 	"net"
-	pb "proto-example/helloworld/proto"
+	pb "grpc/helloworld/proto"
 )
 
 const port = ":50051"
@@ -244,7 +244,7 @@ import (
 	"google.golang.org/grpc"
 	"log"
 	"os"
-	pb "proto-example/helloworld/proto"
+	pb "grpc/helloworld/proto"
 	"time"
 )
 
