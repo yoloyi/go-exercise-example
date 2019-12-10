@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
+	pb "go-exercise-example/proto-example/helloworld/proto"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"log"
 	"os"
-	pb "proto-example/helloworld/proto"
 	"time"
 )
 
