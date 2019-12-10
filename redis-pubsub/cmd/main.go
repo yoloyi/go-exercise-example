@@ -2,10 +2,9 @@ package main
 
 import (
 	"fmt"
+	example "go-exercise-example/redis-pubsub"
 	"log"
 	"sync"
-
-	example "github.com/yoloyi/redis-example"
 )
 
 func main() {
