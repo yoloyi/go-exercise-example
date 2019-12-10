@@ -1,4 +1,4 @@
-module proto-example
+module go-exercise-example/proto-example
 
 go 1.12
 
