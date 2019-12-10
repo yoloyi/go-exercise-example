@@ -1,11 +1,11 @@
 # Golang Grpc 例子
 
-[GitHub源码地址](https://github.com/yoloyi/grpc-exercise) 
+[GitHub源码地址](https://github.com/yoloyi/go-exercise-example) 
 ## 如何运行 helloworld 例子
 ### helloworld
-1、`$ git install git@github.com:yoloyi/grpc-exercise.git`
+1、`$ git clone git@github.com:yoloyi/go-exercise-example.git`
 
-2、`$ cd grpc-exercise`
+2、`$ cd /go-exercise-example/proto-example`
 
 3、`$ go install`
 4、`$ go run helloworld/cmd/service/main.go`
