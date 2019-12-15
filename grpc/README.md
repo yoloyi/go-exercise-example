@@ -1,19 +1,5 @@
 # Golang Grpc 例子
 
-[GitHub源码地址](https://github.com/yoloyi/go-exercise-example) 
-## 如何运行 helloworld 例子
-### helloworld
-1、`$ git clone git@github.com:yoloyi/go-exercise-example.git`
-
-2、`$ cd /go-exercise-example/grpc`
-
-3、`$ go install`
-4、`$ go run helloworld/cmd/service/main.go`
-
-5、`$ go run helloworld/cmd/client/main.go world`
-
-
-
 ## 例子学习
 > protoc 是 Protocol Buffers 的一个工具，负责生成协议的序列化、反序列化相应语言的代码
 
@@ -30,6 +16,7 @@ mv bin/protoc /usr/local/bin
 ```
 
 3、检查 `protoc` 是否正确移动
+
 ```shell script
 which protoc
 ```
