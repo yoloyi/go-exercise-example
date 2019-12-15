@@ -254,7 +254,7 @@ const (
 )
 
 func main() {
-	conn, err := grpc.Dial(address, grpc.WithInsecure()) // 判断 grpc service 是否活着
+	conn, err := grpc.Dial(address, grpc.WithInsecure()) // 判断 grpc srv 是否活着
 
 	// grpc.WithInsecure() 禁用传递安全型，
 	if err != nil {
@@ -284,7 +284,7 @@ func main() {
 
 ```shell script
 
-$ go run helloworld/cmd/service/main.go
+$ go run helloworld/cmd/srv/main.go
 
 //out: -------------------
 // Hello world GRpc start
