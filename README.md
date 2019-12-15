@@ -1,7 +1,7 @@
-## Go 练习的例子
+# Go 学习笔记
 
-1、[Go 使用 grpc](./grpc/README.md)
+1. [如何在 Golang 中使用 Redis 订阅/发布](./redis-pubsub/README.md) 
 
-2、[如何在 Golang 中使用 Redis 订阅/发布](./redis-pubsub/README.md) 
-
-3、[初探 Go-Micro](./go-micro/README.md) 
+### Go Micro 学习
+1. [Go GRPC](./grpc/README.md)
+2. [Go-Micro GRPC Hello world](go-micro/helloworld/README.md) 

@@ -36,9 +36,9 @@ Micro 是一个着眼于分布式系统开发的微服务生态系统。
 
 ### Hello world 例子
 
-1、[Service](./helloworld/cmd/srv/main.go)
+1、[Service](cmd/srv/main.go)
 
-2、[Client](./helloworld/cmd/client/main.go) 
+2、[Client](cmd/client/main.go) 
 
 
 
